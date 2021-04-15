@@ -51,7 +51,7 @@ const index = ({jims}) => {
   <Image src="/img/car.png" height={100} width={100} alt="what " />
 </div>
 <Link href="/api/hello">
-  <a className={styles.btn}>Captaion</a>
+  <a className={styles.btn}>Get Api</a>
 </Link>
 
 

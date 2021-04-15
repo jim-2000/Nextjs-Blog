@@ -148,3 +148,52 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 } */
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  margin: 5rem;
+  border: 2px solid #bec0c4;
+  padding: 3rem;
+  text-align: center;
+}
+
+.logo {
+  font-size: 10rem;
+}
+
+.card h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.card li {
+  font-size: 1.3rem;
+  list-style: none;
+}
+
+/* Individual card styling */
+
+#html-logo {
+  color: #e34f26;
+}
+#html-title h2 {
+  color: #e34f26;
+}

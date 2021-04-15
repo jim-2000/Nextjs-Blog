@@ -3,12 +3,11 @@ import Image  from 'next/image'
 const Navbar = () => {
     return (
         <nav>
-                <Link href="/">
+{/*                
             <div className="logo">
                 <Image  width={128} height={77} src="/img/logo.png"  alt="logo" />
-                
-            </div>
-                </Link>
+            </div> */}
+              
             <Link href="/">
             <a>Home</a>
             </Link>
